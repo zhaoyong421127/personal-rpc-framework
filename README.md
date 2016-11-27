@@ -3,7 +3,7 @@
 框架中还有许多待完善的地方，比如协议的扩展和注册中心多元化支持等。
 <br/>
 使用方式：<br/>
-1.服务提供方配置：<br/>
+<h3>1.服务提供方配置：</h3><br/>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;  <br/>
 &lt;beans xmlns="http://www.springframework.org/schema/beans" <br/>
 xmlns:context="http://www.springframework.org/schema/context" <br/>
@@ -20,7 +20,7 @@ xmlns:context="http://www.springframework.org/schema/context" <br/>
  &lt;/bean&gt; <br/>
 &lt;/beans&gt;<br/>
 <br/>
-2.服务消费方配置：<br/>
+<h3>2.服务消费方配置：</h3><br/>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;<br/>
 &lt;beans xmlns="http://www.springframework.org/schema/beans"<br/>
 xmlns:context="http://www.springframework.org/schema/context"<br/>
@@ -39,7 +39,7 @@ xmlns:context="http://www.springframework.org/schema/context"<br/>
  &lt;/bean&gt; <br/>
 &lt;/beans&gt;<br/>
 
-3.所有注册中心的和服务端口配置信息在config.properties文件中<br/>
+<h3>3.所有注册中心的和服务端口配置信息在config.properties文件中</h3><br/>
 registry.address=127.0.0.1:2181  <br/>
 service.port=21880
 
